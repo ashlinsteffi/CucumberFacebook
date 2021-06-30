@@ -15,4 +15,4 @@ Feature: To validate login functionality
   Scenario: To validate login without entering required credentials
     When User click login button
     Then User must be in invalid credentials page
-    And User will get error message
+    
